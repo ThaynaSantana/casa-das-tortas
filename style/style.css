@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fafaaa;
+}
+
+body {
+    display: grid;
+    
+}
+
+#logo {
+    width: 5rem;
+    border-radius: 10rem;
+    margin: 2rem;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30rem;
+    width: 25rem;
+    flex-direction: column;
+    gap: 0.8rem;
+    border: black 2px solid;
+}
+
+.h1-login {
+    text-align: center;
+    padding: 2rem;
+    font-size: 5rem;
+    
+}
+
+.input-text {
+    background-color: #ffff;
+    width: 13rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem;
+    background-color: #af3252;
+    color: #ffff;
+    font-size: 1.5rem;
+}
